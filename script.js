@@ -1,33 +1,6 @@
 const perguntas = [
     {
-        pergunta: "Qual jogador do São Paulo Futebol Clube recebeu o apelido de 'Deus'?",
-        respostas: [
-            "Kaká",
-            "Lugano",
-            "Rogério Ceni"
-        ],
-        correta: 1
-    },
-    {
-        pergunta: "Quem foi o primeiro técnico do São Paulo Futebol Clube?",
-        respostas: [
-            "Antônio Franco de Siqueira",
-            "Rubens Salles",
-            "Antônio Ferreira"
-        ],
-        correta: 0
-    },
-    {
-        pergunta: "Em que ano o São Paulo Futebol Clube conquistou seu primeiro Campeonato Brasileiro?",
-        respostas: [
-            "1971",
-            "1975",
-            "1977"
-        ],
-        correta: 2
-    },
-    {
-        pergunta: "Quantos títulos da Copa Libertadores da América o São Paulo Futebol Clube conquistou consecutivamente?",
+        pergunta: "Quantos jogadores da seleção brasileira de futebol que conquistaram a Copa do Mundo em 1970 jogavam pelo São Paulo Futebol Clube na época?",
         respostas: [
             "2",
             "3",
@@ -36,60 +9,88 @@ const perguntas = [
         correta: 1
     },
     {
-        pergunta: "Qual foi o placar da partida que deu ao São Paulo Futebol Clube o título da Copa Intercontinental em 1992?",
-        respostas: [
-            "1-0 contra o Barcelona",
-            "2-1 contra o Milan",
-            "3-2 contra o Liverpool"
-        ],
-        correta: 0
-    },
-    {
-        pergunta: "Quem foi o técnico do São Paulo Futebol Clube na conquista do Mundial de Clubes da FIFA em 2005?",
-        respostas: [
-            "Oswaldo de Oliveira",
-            "Emerson Leão",
-            "Paulo Autuori"
-        ],
-        correta: 2
-    },
-    {
-        pergunta: "Qual jogador do São Paulo Futebol Clube recebeu o prêmio de melhor jogador da Copa Libertadores da América em 2005?",
-        respostas: [
-            "Mineiro",
-            "Amoroso",
-            "Cicinho"
-        ],
-        correta: 0
-    },
-    {
-        pergunta: "Qual foi o primeiro jogador estrangeiro a atuar pelo São Paulo Futebol Clube?",
-        respostas: [
-            "Pedro Rocha",
-            "Paraguay",
-            "Gino Orlando"
-        ],
-        correta: 2
-    },
-    {
-        pergunta: "Quantas vezes o São Paulo Futebol Clube venceu a Copa Sul-Americana?",
-        respostas: [
-            "1 vez",
-            "2 vezes",
-            "3 vezes"
-        ],
-        correta: 0
-    },
-    {
-        pergunta: "Qual jogador do São Paulo Futebol Clube foi o artilheiro da Copa Libertadores da América em 1993?",
+        pergunta: "Qual foi o jogador do São Paulo Futebol Clube que marcou o gol na final da Copa Libertadores de 1992 contra o Newell's Old Boys?",
         respostas: [
             "Raí",
             "Müller",
             "Palhinha"
         ],
+        correta: 0
+    },
+    {
+        pergunta: "Quem foi o treinador do São Paulo Futebol Clube no tricampeonato brasileiro consecutivo (2006, 2007 e 2008)?",
+        respostas: [
+            "Muricy Ramalho",
+            "Emerson Leão",
+            "Paulo Autuori"
+        ],
+        correta: 0
+    },
+    {
+        pergunta: "Quantas vezes o São Paulo Futebol Clube conquistou o Campeonato Paulista em sua história?",
+        respostas: [
+            "21 vezes",
+            "22 vezes",
+            "23 vezes"
+        ],
         correta: 1
+    },
+    {
+        pergunta: "Qual jogador do São Paulo Futebol Clube é conhecido como 'Pintado'?",
+        respostas: [
+            "Hernanes",
+            "Luís Fabiano",
+            "Válber"
+        ],
+        correta: 0
+    },
+    {
+        pergunta: "Quem foi o primeiro jogador a marcar um gol no estádio do Morumbi?",
+        respostas: [
+            "Gino Orlando",
+            "Nílton Santos",
+            "Dino Sani"
+        ],
+        correta: 0
+    },
+    {
+        pergunta: "Em que ano o São Paulo Futebol Clube conquistou o seu primeiro título do Campeonato Brasileiro?",
+        respostas: [
+            "1971",
+            "1975",
+            "1977"
+        ],
+        correta: 2
+    },
+    {
+        pergunta: "Qual foi o placar da final do Mundial de Clubes da FIFA em 2005, em que o São Paulo Futebol Clube venceu o Liverpool?",
+        respostas: [
+            "1-0",
+            "2-1",
+            "3-2"
+        ],
+        correta: 0
+    },
+    {
+        pergunta: "Quem foi o capitão do São Paulo Futebol Clube na conquista da Copa Libertadores da América em 2005?",
+        respostas: [
+            "Rogério Ceni",
+            "Rogério Pinheiro",
+            "Rogério Micale"
+        ],
+        correta: 0
+    },
+    {
+        pergunta: "Qual jogador do São Paulo Futebol Clube recebeu o apelido de 'Milagreiro'?",
+        respostas: [
+            "Falcão",
+            "Cafu",
+            "Zetti"
+        ],
+        correta: 2
     }
 ];
+
 
 
 const quiz = document.querySelector('#quiz')
