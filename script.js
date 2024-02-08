@@ -39,19 +39,19 @@ const perguntas = [
         pergunta: "Qual jogador do São Paulo Futebol Clube é conhecido como 'Pintado'?",
         respostas: [
             "Hernanes",
-            "Luís Fabiano",
+            "Luís Carlos",
             "Válber"
         ],
-        correta: 0
+        correta: 1
     },
     {
         pergunta: "Quem foi o primeiro jogador a marcar um gol no estádio do Morumbi?",
         respostas: [
             "Gino Orlando",
-            "Nílton Santos",
+            "Peixinho",
             "Dino Sani"
         ],
-        correta: 0
+        correta: 1
     },
     {
         pergunta: "Em que ano o São Paulo Futebol Clube conquistou o seu primeiro título do Campeonato Brasileiro?",
